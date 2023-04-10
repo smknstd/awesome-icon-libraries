@@ -1,0 +1,20 @@
+[v-cloak] { display:none; }
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(250,252,253);
+    background: linear-gradient(93deg, #9796f0 0%, #fbc7d4 100%);
+}
+
+.title {
+    letter-spacing: -0.05em;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.balance-text {
+    text-wrap: balance;  /* Apply (proposed) CSS style */
+}

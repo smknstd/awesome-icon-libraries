@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+        Awesome Icon Libraries
+    </title>
+    <meta name="description" content="A collaborative list of reliable and open-source icon sets" />
+    <meta name="keywords" content="icons, open-source, github, libraries" />
+    <meta name="author" content="smknstd" />
+    <meta property="og:site_name" content="Awesome Icon Libraries" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://awesomeiconlibraries.netlify.app" />
+    <meta property="og:title" content="A collaborative list of icon libraries" />
+    <meta property="og:description" content="List and compare great open source icon sets for your next project" />
+    <meta property="og:image" content="https://awesomeiconlibraries.netlify.app/card.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@smknstd" />
+    <meta name="twitter:title" content="A collaborative list of icon libraries" />
+    <meta name="twitter:description" content="List and compare great open source icon sets for your next project" />
+    <meta name="twitter:image" content="https://awesomeiconlibraries.netlify.app/card.png" />
+    <meta name="twitter:url" content="https://awesomeiconlibraries.netlify.app" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.0/dist/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/balance-text@3.3.1/balancetext.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/source-sans-pro@3.6.0/source-sans-pro.css" />
+
+</head>
+<body class="leading-normal tracking-normal text-black max-w-xl mx-auto">
+    <div class="pt-24">
+        <div class="container mx-auto">
+            <div class="flex flex-col items-center w-full justify-center text-center">
+                <h1 class="my-4 text-5xl leading-tight text-gray-800 mx-10">
+                    <span class="title">Awesome
+                        <span class="font-bold">Icon Libraries</span>
+                    </span>
+                </h1>
+                <p class="leading-normal text-2xl mt-4 mb-8 text-gray-800 max-w-2xl mx-10">
+                    <span class="balance-text">
+                        A collaborative list of reliable and open-source icon sets.
+                    </span>
+                </p>
+                <a target="_blank" href="https://github.com/smknstd/awesome-icon-libraries" class="no-underline pl-2">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div
+        x-data="{
+            iconLibraries: [
+                {
+                    'name': 'Bootstrap',
+                    'logo': 'bootstrap-icons.png',
+                    'github_repo': 'twbs/icons',
+                    'figma_url': 'https://www.figma.com/community/file/1042482994486402696',
+                    'font': true,
+                    'svg': true,
+                    'creation_year': '2019',
+                    'icons_count': '1900',
+                },
+                {
+                    'name': 'css.gg',
+                    'logo': 'css.png',
+                    'github_repo': 'astrit/css.gg',
+                    'figma_url': 'https://www.figma.com/community/file/834587122842084475',
+                    'font': true,
+                    'svg': true,
+                    'creation_year': '2019',
+                    'icons_count': '700',
+                },
+                {
+                    'name': 'Heroicons',
+                    'logo': 'hero.png',
+                    'github_repo': 'tailwindlabs/heroicons',
+                    'figma_url': 'https://www.figma.com/community/file/1143911270904274171',
+                    'font': false,
+                    'svg': true,
+                    'creation_year': '2020',
+                    'icons_count': '450',
+                },
+                {
+                    'name': 'Iconoir',
+                    'logo': 'iconoir.png',
+                    'github_repo': 'iconoir-icons/iconoir',
+                    'figma_url': 'https://www.figma.com/community/file/983248991460488027',
+                    'font': false,
+                    'svg': true,
+                    'creation_year': '2018',
+                    'icons_count': '1300',
+                },
+                {
+                    'name': 'Ion Icons',
+                    'logo': 'ionicons.png',
+                    'github_repo': 'ionic-team/ionicons',
+                    'figma_url': 'https://www.figma.com/community/plugin/777817104312450242',
+                    'font': false,
+                    'svg': true,
+                    'creation_year': '2013',
+                    'icons_count': '1300',
+                },
+                {
+                    'name': 'Lucide',
+                    'logo': 'lucide.png',
+                    'github_repo': 'lucide-icons/lucide',
+                    'figma_url': 'https://www.figma.com/community/plugin/939567362549682242',
+                    'font': true,
+                    'svg': true,
+                    'creation_year': '2014',
+                    'icons_count': '930',
+                },
+                {
+                    'name': 'Primer Octicons',
+                    'logo': 'octicons.png',
+                    'github_repo': 'primer/octicons',
+                    'figma_url': 'https://www.figma.com/@primer',
+                    'font': false,
+                    'svg': true,
+                    'creation_year': '2014',
+                    'icons_count': '400',
+                },
+                {
+                    'name': 'Simple',
+                    'logo': 'simple.jpeg',
+                    'github_repo': 'simple-icons/simple-icons',
+                    'figma_url': 'https://www.figma.com/community/plugin/1149614463603005908',
+                    'font': false,
+                    'svg': true,
+                    'creation_year': '2012',
+                    'icons_count': '2400',
+                },
+                {
+                    'name': 'Radix Icons',
+                    'logo': 'radix.png',
+                    'github_repo': 'radix-ui/icons',
+                    'figma_url': 'https://www.figma.com/file/9Df5CaFUEomVzn20gRpaX3',
+                    'font': false,
+                    'svg': true,
+                    'creation_year': '2019',
+                    'icons_count': '270',
+                },
+                {
+                    'name': 'Remix Icon',
+                    'logo': 'remix.png',
+                    'github_repo': 'Remix-Design/RemixIcon',
+                    'figma_url': 'https://www.figma.com/community/plugin/1089569154784319246',
+                    'font': false,
+                    'svg': true,
+                    'creation_year': '2018',
+                    'icons_count': '2440',
+                },
+                {
+                    'name': 'Material Design',
+                    'logo': 'google-fonts.png',
+                    'github_repo': 'google/material-design-icons',
+                    'figma_url': 'https://www.figma.com/community/plugin/1088610476491668236',
+                    'font': true,
+                    'svg': true,
+                    'creation_year': '2014',
+                    'icons_count': '2800',
+                },
+                {
+                    'name': 'Font Awesome',
+                    'logo': 'font-awesome.png',
+                    'github_repo': 'FortAwesome/Font-Awesome',
+                    'figma_url': 'https://www.figma.com/community/plugin/774202616885508874',
+                    'font': true,
+                    'svg': true,
+                    'creation_year': '2012',
+                    'icons_count': '2000',
+                },
+                {
+                    'name': 'Coolicons',
+                    'logo': 'coolicons.png',
+                    'github_repo': 'krystonschwarze/coolicons',
+                    'figma_url': 'https://www.figma.com/community/file/800815864899415771',
+                    'font': true,
+                    'svg': true,
+                    'creation_year': '2020',
+                    'icons_count': '440',
+                },
+            ],
+        }"
+    >
+        <div class="py-6 sm:py-8 lg:py-12">
+            <div class="mx-auto px-4 md:px-8">
+                <div class="mb-5 flex flex-col sm:mb-8 sm:divide-y">
+
+                    <template x-for="item in iconLibraries">
+                    <!-- product - start -->
+                        <div class="bg-white p-6 rounded-xl mb-4 flex">
+                            <div class="w-full flex flex-row justify-between">
+                                <div class="flex justify-start">
+                                    <div>
+                                        <a target="_blank" x-bind:href="'https://github.com/' + item.github_repo">
+                                            <img :src="'/logos/'+item.logo" loading="lazy" alt="Logo" class="h-24 w-24 object-cover object-center transition duration-200 group-hover:scale-110 rounded-lg" />
+                                        </a>
+                                    </div>
+
+                                    <div class="flex flex-1 flex-col xs:pl-4 pl-10">
+                                        <div>
+                                            <a target="_blank" x-bind:href="'https://github.com/' + item.github_repo" class="block font-bold text-gray-800 lg:text-xl" x-text="item.name">
+                                            </a>
+                                        </div>
+
+                                        <div class="text-gray-500 text-sm md:text-md pb-2">
+                                            Since <span x-text="item.creation_year"></span>
+                                        </div>
+
+                                        <div class="text-gray-500 text-sm md:text-md pb-2">
+                                            <span class="font-bold" x-text="item.icons_count"></span>+ icons
+                                        </div>
+
+
+
+                                        <div class="flex pt-1">
+                                            <template x-if="item.svg">
+                                                <span class="bg-purple-100 text-purple-800 text-sm font-medium mr-2 px-2.5 pt-0.5 rounded dark:bg-purple-900 dark:text-purple-300">
+                                                    SVG
+                                                </span>
+                                            </template>
+                                            <template x-if="item.font">
+                                                <span class="bg-blue-100 text-purple-800 text-sm font-medium mr-2 px-2.5 pt-0.5 rounded dark:bg-purple-900 dark:text-purple-300">
+                                                    CSS
+                                                </span>
+                                            </template>
+                                            <template x-if="item.figma_url">
+                                                <a target="_blank" x-bind:href="item.figma_url">
+                                                    <img src="figma-logo.svg" alt="figma logo" loading="lazy" class="ml-1 h-6 object-cover object-center transition duration-200">
+                                                </a>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex justify-end">
+                                    <a target="_blank" x-bind:href="'https://github.com/' + item.github_repo" class="inline-flex items-start">
+                                        <img class="w-24" x-bind:src="'https://img.shields.io/github/stars/' + item.github_repo + '?logo=github&style=social'" alt="snippet with github stars count from shields dot io">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- product - end -->
+                    </template>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container mx-auto">
+            <div class="flex items-center w-full justify-center text-center">
+                <div class="text-xl mb-40 mx-20 text-groatay-800 max-w-3xl">
+                    This page has been made in France with
+                    <svg class="w-6 h-6 inline" fill="red" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
+                    by
+                    <a href="https://smknstd.github.io" class="underline">
+                        smknstd
+                    </a>
+                    <a href="https://twitter.com/smknstd">
+                        <svg class="w-6 h-6 inline ml-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg>
+                    </a>
+                    . It is cookie free and has no analytics. Missing library or outdated data ? Feel free to submit a PR on
+                    <a href="https://github.com/smknstd/awesome-icon-libraries" class="underline">
+                        github
+                    </a>
+                    .
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    balanceText();
+</script>
+</html>
